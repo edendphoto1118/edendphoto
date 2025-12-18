@@ -1,1 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eden D. Photography | 建築師的時尚人像</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <h1 class="logo">EDEN D.</h1>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#archive">Archive</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
+    <!-- Hero -->
+    <section id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">建築師的視角<br>捕捉你的永恆王牌</h1>
+            <p class="hero-subtitle">時尚人像 × 長曝光影 × 建築幾何</p>
+            <a href="#works" class="btn-primary">探索作品</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>我是Eden，一位建築師事務所員工，同時是人像攝影創作者。</p>
+                    <p>建築訓練讓我對空間、光影與幾何極度敏感——我將這些專業帶入攝影，創造出融合時尚感與建築美學的作品。</p>
+                    <p>我的風格：輕鬆街拍的自然、棚內時尚的高冷、長曝的夢幻光繪。</p>
+                    <p>每張照片，都是一座微型建築。</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/about-self.jpg" alt="Eden D. 自拍">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Works Gallery -->
+    <section id="works" class="section">
+        <div class="container">
+            <h2 class="section-title">Works</h2>
+            <div class="filter-buttons">
+                <button data-filter="all" class="filter-btn active">All</button>
+                <button data-filter="fashion" class="filter-btn">Fashion Archive</button>
+                <button data-filter="longexp" class="filter-btn">Long Exposure</button>
+                <button data-filter="architectural" class="filter-btn">Architectural Portrait</button>
+                <button data-filter="cinematic" class="filter-btn">Cinematic Action</button>
+                <button data-filter="limited" class="filter-btn">Limited Edition</button>
+                <button data-filter="brand" class="filter-btn">Brand Collaboration</button>
+            </div>
+            <div class="gallery-grid">
+                <!-- 範例圖片，替換成你的作品 -->
+                <div class="gallery-item" data-category="fashion">
+                    <img src="images/fashion-black-dress.jpg" alt="黑色長裙時尚">
+                </div>
+                <div class="gallery-item tall" data-category="longexp">
+                    <img src="images/longexp-street.jpg" alt="長曝街拍">
+                </div>
+                <!-- 更多圖片... 每張加 data-category 對應分類 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Reels 嵌入 -->
+    <section class="section reels-section">
+        <div class="container">
+            <h2 class="section-title">Reels</h2>
+            <div class="reels-grid">
+                <!-- 嵌入IG Reels -->
+                <iframe src="https://www.instagram.com/reel/YOUR_REEL_ID/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                <!-- 多個Reels -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section">
+        <div class="container">
+            <h2 class="section-title">Pricing & Booking</h2>
+            <!-- 限時撲克牌banner -->
+            <div class="limited-banner">
+                <p>2026 Q1 Limited: 撲克牌王牌企劃 – 名額有限，立即搶購</p>
+                <a href="#contact" class="btn-primary">詢價預約</a>
+            </div>
+            <div class="pricing-grid">
+                <!-- Plan A -->
+                <div class="pricing-card">
+                    <h3>Ace of Spades ・ 光影入門</h3>
+                    <p class="price">NT$ 8,800</p>
+                    <!-- 特點列表 -->
+                    <a href="#contact" class="btn-secondary">諮詢預約</a>
+                </div>
+                <!-- Plan B 推薦 -->
+                <div class="pricing-card recommended">
+                    <span class="badge">推薦</span>
+                    <h3>The Architect ・ 完整時尚建築</h3>
+                    <p class="price">NT$ 28,800</p>
+                    <!-- 特點 -->
+                    <a href="#contact" class="btn-primary">立即預約</a>
+                </div>
+                <!-- Plan C -->
+                <div class="pricing-card">
+                    <h3>The Kingdom ・ 雙人霸業</h3>
+                    <p class="price">NT$ 48,800</p>
+                    <!-- 特點 -->
+                    <a href="#contact" class="btn-secondary">諮詢預約</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2 class="section-title">Clients Say</h2>
+            <div class="testimonials-carousel">
+                <!-- 客戶見證卡片 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- The Face Archive 互惠報名 -->
+    <section id="archive" class="section archive-section">
+        <div class="container">
+            <h2 class="section-title">The Face Archive ｜ 臉孔資料庫</h2>
+            <p>我們一直在尋找能撐起時尚建築王牌的臉——有建築般俐落的輪廓，或能在長曝中閃耀的氣場。如果你覺得自己是那張牌，請留下IG，讓靈感來時找到你。</p>
+            <p class="counter">👁️ 本季 Scout List 已收錄 420+ 位潛力王牌</p>
+            <form class="archive-form">
+                <input type="text" placeholder="Name / Nickname" required>
+                <input type="text" placeholder="Instagram Handle (@)" required>
+                <div class="archetype-options">
+                    <label><input type="radio" name="archetype" value="spade"> ♠️ 黑桃 (冷冽/建築)</label>
+                    <!-- 其他選項 -->
+                </div>
+                <button type="submit" class="btn-primary">Join the Archive</button>
+                <p class="micro-copy">這不是報名，這是讓我們記住你的方式。</p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <form>
+                <!-- 表單欄位 -->
+                <button type="submit" class="btn-primary">送出詢問</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
